@@ -4,7 +4,7 @@ let label2: string = document.getElementById("label2");
 let btn1 = document.getElementById("btn1");
 
 //insert in HTML
-label1.innerHTML = "insert the number tho check";tho?
+label1.innerHTML = "insert the number tho check";
 label2.innerHTML = "insert the number multiple";
 
 //define variables, tipe and your origin//excelente idea practicar el ingles, verificá la ortografia si tenes tiempo
@@ -21,8 +21,8 @@ function isMultiple(number1: number, number2: number): boolean {
 
 //button whith call the function//!!
 btn1.addEventListener("click", () => {
-  let number1: number = Number(dato1.value); //call the dato1 HTML//no estaban ya definidas las variables??
-  let number2: number = Number(dato2.value); //call the dato2 HTML//que te parece: get data2   (call esta mas relacionado a funciones)
+  let number1: number = Number(dato1.value); //get the dato1 HTML//
+  let number2: number = Number(dato2.value); //get the dato2 HTML//
   if (isMultiple(number1, number2)) {
     // booblean is true
     console.log("the number", number1, "is multiple of", number2);
